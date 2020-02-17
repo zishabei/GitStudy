@@ -1,0 +1,7 @@
+//合并多次commit
+git rebase -i HEAD~4  //数字代表要合并的commit的数目
+编辑commit，按下A键进入编辑模式，将需要合并的commit前面改为s
+按下Esc退出编辑模式，输入:wq。保存退出。
+编辑commit内容，按下A键进入编辑模式，编辑commit内容。
+按下Esc退出编辑模式，输入:wq。保存退出。
+git push -f
