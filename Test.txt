@@ -1,1 +1,7 @@
 masterでファイルを添付する。
+rebase branch aaa
+rebase branch bbb
+master add 111
+master add 111
+master add 222
+rebase branch ccc
